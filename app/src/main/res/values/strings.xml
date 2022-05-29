@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DiagnalDemoApp</string>
+    <string name="search">Search</string>
+    <item name="span_ratio" format="float" type="dimen">1.9</item>
+</resources>

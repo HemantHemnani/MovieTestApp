@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.santalu.aspectratioimageview.AspectRatioImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:id="@+id/movieIv"
+        android:src="@mipmap/placeholder_for_missing_posters"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:ari_ratio="@dimen/span_ratio"
+        />
+
+    <TextView
+        style="@style/text_wrap18"
+        android:id="@+id/movieNameTv"
+        app:layout_constraintTop_toBottomOf="@id/movieIv"
+        app:layout_constraintStart_toStartOf="parent"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:layout_marginTop="2dp"
+        android:fontFamily="@font/titilliumweb_regular"
+        tools:text="Movie Title"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

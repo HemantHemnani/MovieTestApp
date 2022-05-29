@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <dimen name="left_margin">15dp</dimen>
+  <dimen name="right_margin">15dp</dimen>
+
+  <dimen name="grid_distance">25px</dimen>
+
+  <dimen name="text_10">10sp</dimen>
+  <dimen name="text_12">12sp</dimen>
+  <dimen name="text_14">14sp</dimen>
+  <dimen name="text_16">16sp</dimen>
+  <dimen name="text_18">18sp</dimen>
+  <dimen name="text_20">20sp</dimen>
+
+  <dimen name="app_separator">1dp</dimen>
+  <dimen name="app_separator_min">0.5dp</dimen>
+
+</resources>
